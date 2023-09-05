@@ -65,7 +65,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
 							height={128}
 						/>
 						<h1 className="mb-2 mt-4 text-base font-bold uppercase tracking-widest">
-							HAPPY TEACHERS DAY 2023
+							HAPPY TEACHERS' DAY 2023
 						</h1>
 						<p className="max-w-[40ch] text-white/75 sm:max-w-[32ch]">
 							Notes from SPIRE Lab Family!
