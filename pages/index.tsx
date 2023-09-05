@@ -123,7 +123,8 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
 				>
 					Prasanta Sir
 				</a>{" "}
-				for everything <p className="text-red-500 text-lg">&hearts;&nbsp;</p>
+				for everything{" "}
+				<p className="text-lg text-red-500">&hearts;&nbsp;</p>
 			</footer>
 		</>
 	);
@@ -166,24 +167,6 @@ export async function getStaticProps() {
 		},
 	};
 }
-
-const notes = [
-	{
-		id: 1,
-		name: "sathvik",
-		note: "Thank you for your mentorship and guidance. We are grateful for your patience and kindness in dealing with us. We cherish the freedom and support we get to explore our creativity, interests and goals. We are lucky to be working under you.",
-	},
-	{
-		id: 2,
-		name: "keerthana",
-		note: "Thank you sir for supporting me and guiding me and ensuring I heal faster!",
-	},
-	{
-		id: 3,
-		name: "deek",
-		note: "Thankyou for letting us know that we can do many more things in a day. Just got wondered by seeing your busy schedules and still you have a smiling face in the late night meetings.",
-	},
-];
 
 const notes2 = [
 	{
@@ -234,5 +217,26 @@ const notes2 = [
 		"Display your name under the message?": "Yes",
 		"Your note":
 			"Dear Sir ,\n\n\nWish you happy Teachers Day, on this special day, I want to express my heartfelt gratitude for being a guide in my career journey.\nYour wisdom and support have made a lasting impact and your influence will extend beyond the class room .\n\nThank you once again for the Support we have received from you!\n\nRegards\nRoopa",
+	},
+	{
+		Timestamp: "9/5/2023 15:11:41",
+		"Your name": "Bhargavi Badal",
+		"Display your name under the message?": "No",
+		"Your note":
+			'Sir, We have learned a lot after coming to SPIRE LAB along with your guidance that, "We can gain our life dreams if we\'re determined and pushed to learn." Sometimes Thank you is insufficient due to do not expressing the depth of my gratitude fully. Those words may feel insufficient for an extraordinary Teacher, Mentor, and sometime giving guidance. Thank you Sir.',
+	},
+	{
+		Timestamp: "9/5/2023 15:23:09",
+		"Your name": "Himanshi Varma",
+		"Display your name under the message?": "Yes",
+		"Your note":
+			"Sir, your friendly nature and open-mindedness make it easy for us to approach you with any doubt. Your support is truly appreciated. Thank you for illuminating our path with your guidance and knowledge.  Happy Teacher's Day Sir 🧡🧡🧡",
+	},
+	{
+		Timestamp: "9/5/2023 15:38:38",
+		"Your name": "Ashwin Raikar",
+		"Display your name under the message?": "Yes",
+		"Your note":
+			"শব্দের একটি সিম্ফনি\nমন বিস্ময়ে ভরে যায়\nএকটি নতুন গানের জন্ম হয়\n\n- পৃথিবী সবার শেখার জন্য একটি বড় শ্রেণীকক্ষ।\n(The world is a big-classroom for everyone to be inspired)\n\nThank you, Prasanta Sir for InSPIREing us",
 	},
 ];
