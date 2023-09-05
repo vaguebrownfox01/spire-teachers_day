@@ -16,11 +16,11 @@ const Home: NextPage = ({ currentPhoto }: { currentPhoto: ImageProps }) => {
 
   return (
     <>
-      <Head>
+      {/* <Head>
         <title>Next.js Conf 2022 Photos</title>
         <meta property="og:image" content={currentPhotoUrl} />
         <meta name="twitter:image" content={currentPhotoUrl} />
-      </Head>
+      </Head> */}
       <main className="mx-auto max-w-[1960px] p-4">
         <Carousel currentPhoto={currentPhoto} index={index} />
       </main>
