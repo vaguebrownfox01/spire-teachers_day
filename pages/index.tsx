@@ -270,7 +270,7 @@ const notes2 = [
   {
 		Timestamp: "9/5/2023 17:01:56",
 		"Your name": "vrx",
-		"Display your name under the message?": "Yes",
+		"Display your name under the message?": "No",
 		"Your note":
 			"time after time,\n I swam beneath your waves;\n stones fragment to grains,\n my mind pearls into _.",
 	}
