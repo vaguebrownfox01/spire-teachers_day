@@ -61,8 +61,8 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
 							alt="spire logo"
 							className="transform rounded-lg brightness-90 transition will-change-auto group-hover:brightness-110"
 							src={`/spr-logo.png`}
-							width={72}
-							height={72}
+							width={128}
+							height={128}
 						/>
 						<h1 className="mb-2 mt-4 text-base font-bold uppercase tracking-widest">
 							HAPPY TEACHERS DAY 2023
@@ -259,5 +259,12 @@ const notes2 = [
 		"Display your name under the message?": "Yes",
 		"Your note":
 			"Your patience, kindness, and understanding have helped me to grow and succeed in ways that I never though possible. You are a mentor and a role model! I am so grateful for everythinf you have done for me. A Very Happiest Teacher's day to you sir.",
+	},
+	{
+		Timestamp: "9/5/2023 17:01:56",
+		"Your name": "Shaique",
+		"Display your name under the message?": "Yes",
+		"Your note":
+			"You are one of the very few people I want to imitate in my life. Will be lucky if I could just make to 1%. ",
 	},
 ];
