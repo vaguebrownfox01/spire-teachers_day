@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "dev": "NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=dz3meh1ym CLOUDINARY_API_KEY=462797153371851 CLOUDINARY_API_SECRET=ut-TSxsqZ6pRtBwBy9SWLsMT2mI  next dev",
+    "dev": "CLOUDINARY_FOLDER=tday NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=dz3meh1ym CLOUDINARY_API_KEY=462797153371851 CLOUDINARY_API_SECRET=ut-TSxsqZ6pRtBwBy9SWLsMT2mI  next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"

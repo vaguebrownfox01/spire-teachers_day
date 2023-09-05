@@ -64,6 +64,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
               *Insert brief text here*
             </p>
           </div>
+          {/* <>
           {images.map(({ id, public_id, format, blurDataUrl }) => (
             <Link
               key={id}
@@ -72,10 +73,10 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
               ref={id === Number(lastViewedPhoto) ? lastViewedPhotoRef : null}
               shallow
               className="after:content group relative mb-5 block w-full cursor-zoom-in after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight"
-            >
+              >
               <Image
                 alt="Next.js Conf photo"
-                className="transform rounded-lg brightness-90 transition will-change-auto group-hover:brightness-110"
+                className="transform rounded-lg brightness-90 scale-100 transition will-change-auto group-hover:scale-150"
                 style={{ transform: 'translate3d(0, 0, 0)' }}
                 placeholder="blur"
                 blurDataURL={blurDataUrl}
@@ -83,13 +84,29 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
                 width={720}
                 height={480}
                 sizes="(max-width: 640px) 100vw,
-                  (max-width: 1280px) 50vw,
-                  (max-width: 1536px) 33vw,
-                  25vw"
-              />
+                (max-width: 1280px) 50vw,
+                (max-width: 1536px) 33vw,
+                25vw"
+                />
             </Link>
           ))}
-        </div>
+          </> */}
+          <div>
+          {notes.map(({ id, name, note }) => (
+            <div
+              key={id}
+              className="justify-end after:content group relative mb-5 p-8  block w-full after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight"
+              >
+              <h1  className="mt-4 mb-2 text-base font-bold text-white text-center tracking-wide">
+                {note}
+              </h1>
+              <h1
+              className="text-right text-white/75 mr-4"
+              >-{name}</h1>
+            </div>
+          ))}
+          </div>
+          </div>
       </main>
       <footer className="p-6 text-center text-white/80 sm:p-12">
         Thank you {' '}
@@ -144,3 +161,21 @@ export async function getStaticProps() {
     },
   }
 }
+
+const notes = [
+  {
+    id: 1,
+    name: "sathvik",
+    note: "Thank you for your mentorship and guidance. We are grateful for your patience and kindness in dealing with us. We cherish the freedom and support we get to explore our creativity, interests and goals. We are lucky to be working under you.",
+  },
+  {
+    id: 2,
+    name: "keerthana",
+    note: "Thank you sir for supporting me and guiding me and ensuring I heal faster!"
+  },
+  {
+    id: 3,
+    name: "deek",
+    note: "Thankyou for letting us know that we can do many more things in a day. Just got wondered by seeing your busy schedules and still you have a smiling face in the late night meetings."
+  }
+]
