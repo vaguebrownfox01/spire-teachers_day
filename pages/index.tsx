@@ -97,9 +97,9 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
 								key={info.Timestamp}
 								className="after:content group relative mb-5 block w-full  justify-end p-8 after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight"
 							>
-								<h1 className="mb-2 mt-4 text-center text-base font-bold tracking-wide text-white">
+								<p className="mb-2 mt-4 whitespace-pre-line text-center text-base font-bold tracking-wide text-white">
 									{info["Your note"]}
-								</h1>
+								</p>
 								<h1 className="mr-4 text-right text-white/75">
 									-
 									{info[
