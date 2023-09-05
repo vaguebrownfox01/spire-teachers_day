@@ -123,7 +123,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
 			<footer className="p-6 text-center text-white/80 sm:p-12">
 				Thank you{" "}
 				<a
-					href="https://edelsonphotography.com/"
+					href=""
 					target="_blank"
 					className="font-semibold hover:text-white"
 					rel="noreferrer"
